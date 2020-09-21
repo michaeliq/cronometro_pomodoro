@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Título de la WEB</title>    
+  <meta charset="UTF-8">
+  <meta name="title" content="Título de la WEB">
+  <link href="static/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="container">
+	<span class="desc"> este es tu cronometro personal pomodoro <span id="user"></span>
+	</span>
+	<span class="time">
+		<p class=tiempo>00</p>:<p class="tiempo">00</p>
+	</span>
+	<div class="contenedor_opciones">
+		<button>INICIAR</button>
+		<button>INSERTAR VALORES</button>
+		<button>RESET</button> 
+	</div>
+</div>
+<div class="contenedor_formulario" novalidate>
+	<form action="#" class="formulario_usuario">
+
+		<label for="nombre_completo">Nombre Completo</label>
+		<input type="text" id="user_name" name="nombre_completo">
+
+		<label for="tiempo">Tiempo de Sesión</label>
+		<div class="formulario_usuario_tiempo">
+			<label for="">M: </label><input class='minutes' type="number" >
+			<label for="">S: </label><input class='seconds' type="number" >
+		</div>
+
+		<button>Fijar data</button>
+	</form>
+</div>
+<script src="static/main.js"></script>
+</body>
+</html>
