@@ -1,20 +1,21 @@
 # cronometro_pomodoro
-Proyecto para HackSpace, semana inicial. 
+<h1>Proyecto para HackSpace -- semana inicial</h1>
 
-Técnica Pomodoro
-Esta técnica facilita maximar la optimización de tiempo
-para la ejecución de tareas y aumentó de la concentración.
+<h2>Técnica Pomodoro</h2>
+<p>Esta técnica facilita maximar la optimización de tiempo
+para la ejecución de tareas y aumentó de la concentración.</p>
 
-Para el aprovechamiento de la herramienta aquí presente
+<p>Para el aprovechamiento de la herramienta aquí presente
 Se te facilita un cronómetro en el cual puedes fijar
-minutos y segundos.
-Para empezar fijas los valores de nombre de usuario, minutos y segundos
-Presionas fijar en el formulario
-Das al boton INICIAR
-Puedes presionar DETENER para pausar el cronómetro
-Si el tiempo es superior a 40 minutos tendrás pausas cada 20 minutos
-Si el tiempo es inferior a esto no tendrás periodo de descanso
-Los periodos de descanso son de 1 minuto
-Puedes reiniciar los valores a cero dando en el botón de RESET
-
+minutos y segundos.</p>
+<p>Para empezar: </p>
+<ol>fijas los valores de nombre de usuario, minutos y segundos
+  <li>Presionas fijar en el formulario</li>
+  <li>Das al boton INICIAR</li>
+  <li>Puedes presionar DETENER para pausar el cronómetro</li>
+  <li>Si el tiempo es superior a 40 minutos tendrás pausas cada 20 minutos</li>
+  <li>Si el tiempo es inferior a esto no tendrás periodo de descanso</li>
+  <li>Los periodos de descanso son de 1 minuto</li>
+  <li>Puedes reiniciar los valores a cero dando en el botón de RESET</li>
+</ol>
 
