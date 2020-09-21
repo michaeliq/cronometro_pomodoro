@@ -1,0 +1,78 @@
+body{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#ffffff;
+overflow:hidden;
+}
+
+.container{
+	display:block;
+	margin: auto;
+	padding: 0;
+	widht: 1000px;
+}
+
+span{
+display:block;
+font-weight:100;    
+text-align:center;    
+font-family:'Bellota',helvetica; 
+}
+
+.container > span:nth-child(1){
+	position: relative;
+	line-height:70px;                    
+	font-size:26px;
+   counter-reset:#5d5d5d;
+	
+}
+
+.container > span:nth-child(2){ 
+	position:relative; 
+	width:4em; 
+	line-height:1em; 
+	border-radius:150px; 
+	font-size:150px;
+	box-shadow: 15px 15px 15px rgba(13,39,80,.26),inset 15px 15px 15px #999;
+	color:#999;
+	border:5px solid transparent; 
+}
+
+.container > div{
+	display:flex;
+	margin: 2em;
+	height: 3em;
+	justify-content:center;
+	align-items:center;
+}
+
+.container span p{
+	display: inline-block;
+	top: -20px;
+}
+
+.container div button{
+	display: block;
+	width: 150px;
+	height: 45px;
+	border-radius: 50px;
+	margin: 10px;
+	box-shadow: 2px 2px 2px rgba(13,25,75,.30),2px 2px 2px rgba(13,25,75,.30), -5px -5px -5px rgba(13,25,75,.26);
+}
+
+form{
+	display:none;
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
